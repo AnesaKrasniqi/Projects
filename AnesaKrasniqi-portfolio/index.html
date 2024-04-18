@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My website</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <svg height="130" width="500">
+    <defs>
+      <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:rgb(22, 193, 196);stop-opacity:1" />
+      </linearGradient>
+    </defs>
+    <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+    <text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86">Hello</text>
+  </svg>
+
+  <header>
+    <div class="user">
+      <img src="foto1.jpg" alt="foto">
+      <h3 class="name">Anesa Krasniqi</h3>
+    </div>
+
+    <nav class="navbar">
+      <ul>
+        <li><a href="#home">home</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="education.html">education</a></li>
+        <li><a href="portfolio.html">portfolio</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+
+    </nav>
+  </header>
+
+  <div id="menu" class="fas fa-bars"></div>
+
+  <section class="home" id="home">
+
+    <h3>HI THERE!</h3>
+    <h1>I'm <span>Anesa Krasniqi</span></h1>
+    <p>My interest in computer science began around five years ago when I first came 
+      into contact with computer coding in school while creating a small website.
+      From there on, I was captivated. For me, working on computer code is my way of being creative,
+       since I find it difficult to be creative in more common ways such as drawing. Every time I write 
+       a piece of computer code, I get the feeling I have created a piece of art and reading computer code,
+        to me, feels like looking at a piece of art.</p>
+      <a href="about.html"><button class="btn">about me <i class="fas fa-user"></i></button></a>
+  </section>
+
+  
+  <!-- jquery cdn link-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
